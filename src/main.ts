@@ -12,4 +12,6 @@ const app = createApp(App);
 app.use(ElementPlus,{
     locale: zhCn
 })
+
+// console.log(import.meta.env)  //测试获取当前的环境变量
 app.mount('#app')
