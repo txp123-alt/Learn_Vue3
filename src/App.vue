@@ -8,9 +8,11 @@
     <!--    </a>-->
     <h1>我是APP</h1>
     <SvgIcon name="time" width="100px" height="100px"></SvgIcon>
+    <h1>测试Axios</h1>
   </div>
 </template>
 <script setup lang="ts">
+
 
 </script>
 <style scoped lang="scss">
