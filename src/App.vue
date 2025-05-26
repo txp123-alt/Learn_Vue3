@@ -8,9 +8,11 @@
 </template>
 <script setup lang="ts">
 import { onMounted } from 'vue';
+import { reqLogin } from '@/api/user/index.ts'
 
 onMounted(()=>{
   console.log("组件挂载完成")
+  // reqLogin({username:'admin',password:"111111"})
 })
 
 </script>
